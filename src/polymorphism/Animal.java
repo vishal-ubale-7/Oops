@@ -7,7 +7,7 @@ public class Animal
        System.out.print("some animal sound");
    }
 }
-class Dog extends Animal
+class Dog extends Animal   // extends class Animal
 {
     @Override
     void makeSound()
