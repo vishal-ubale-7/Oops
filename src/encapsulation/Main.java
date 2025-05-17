@@ -24,7 +24,7 @@ public class Main
 {
     public static void main(String[]args)
     {
-        BankAccount bankAccount = new BankAccount();
+        BankAccount bankAccount = new BankAccount();  // create the object
         bankAccount.Deposit(1000);
         System.out.println("balance" + bankAccount.getBalance());// getting balance
     }
