@@ -8,7 +8,7 @@ public class Animal
     }
 }
  //child class inheritance from animal class
-class Dog extends Animal
+class Dog extends Animal  // use extends keyword
  {
      void sound()
      {
